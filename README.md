@@ -1,16 +1,9 @@
-# React + Vite
+Employee Management System
+  
+A web-based Employee Management System built using React that provides an efficient way to manage employees, assign tasks, and track work progress in a structured workflow. The application is designed with separate roles for Admin and Employees, each having their own dedicated dashboards for better task management and clarity.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Admins can create and assign tasks to employees, set deadlines, and monitor task progress in real time. Employees can view their assigned tasks, update their status (new, active, completed, failed), and manage their daily work effectively through a simple and intuitive interface.
 
-Currently, two official plugins are available:
+This project uses React Context API for state management and localStorage to persist data in the browser, ensuring that employee details, tasks, and updates remain saved even after page reloads. This makes the application lightweight and fully functional without the need for a backend server.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Key features include dynamic task assignment, real-time status updates, persistent data storage using localStorage, and a clean role-based UI system. The project demonstrates practical frontend development skills such as component architecture, state handling, and client-side data persistence using modern React practices.
